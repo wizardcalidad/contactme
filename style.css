@@ -1,0 +1,29 @@
+label,input,textarea{
+    display: block;
+}
+
+body{
+    background-image: url('./thanks.jpeg');
+    background-repeat: no-repeat;
+}
+
+h5{
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.we{
+    background-color: aliceblue;
+    padding: 10px;
+    margin-right: 85%;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: thin;
+    border-right-color: blue;
+    border-bottom-color: red;
+}
+
+.btn{
+    background-color: blue;
+    color: aliceblue;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+    </head>
+    <body>
+        <h1 class="we">Contact me</h1>
+        
+             <form action="/action_page.php"  method="post">
+                <label>
+                    Name
+                    <input type="text" name="firstName" minlength="4" placeholder="name" required>
+                </label>
+            
+            <label>
+                Email
+                <input type="email" name="email" placeholder="email"required>
+            </label>
+            <label>
+                Title
+                <input type="text" name="title" placeholder="title"required>
+            </label>
+            <label>
+                Message
+                <textarea type="text" name="message" minlength="20" placeholder="kindly drop your message"></textarea>
+            </label>
+            <input type="submit" class="btn" value="Send">
+        </form>
+    </body>
+</html>
